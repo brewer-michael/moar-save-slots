@@ -11,7 +11,7 @@ local slots = GetModConfigData("Tons_SaveSlots")
 GLOBAL.NUM_SAVE_SLOTS = GLOBAL.tonumber(slots)
 
 local function HasDLC()
-	return GLOBAL.IsDLCInstalled(GLOBAL.REIGN_OF_GIANTS) or GLOBAL.IsDLCInstalled(GLOBAL.CAPY_DLC)
+	return GLOBAL.IsDLCInstalled(GLOBAL.REIGN_OF_GIANTS) or GLOBAL.IsDLCInstalled(GLOBAL.CAPY_DLC) or GLOBAL.IsDLCInstalled(GLOBAL.PORKLAND_DLC)
 end
 
 -- new game screen hook
